@@ -7,3 +7,5 @@ Código desenvolvido no módulo de Django do [Site Python Pro](www.python.pro.br
 
 Aplicação disponível em https://alinsmysite.herokuapp.com/
 
+Implementado Deply Automático no Heroku - 21-Set-2020 13:03
+
