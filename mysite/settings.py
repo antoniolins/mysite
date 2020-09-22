@@ -14,7 +14,7 @@ from pathlib import Path
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-import os
+# import os
 from decouple import config
 
 BASE_DIR = Path(__file__).resolve().parent.parent
