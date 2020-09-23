@@ -5,10 +5,10 @@ sudo: true
 python:
   - 3.8
 
-#services:
-# sou postgresql
-#addons:
-#  postgresql: '9.5'
+services:
+  postgresql
+addons:
+  postgresql: '9.5'
 
 
 env:
@@ -21,8 +21,8 @@ install:
   - pipenv sync -d
   - cp contrib/env-sample .env
 
-#before_script:
-#  - psql -c "CREATE DATABASE testdb;" -U postgres
+before_script:
+  - psql -c "CREATE DATABASE testdb;" -U postgres
 
 script:
   - pipenv run flake8 .
