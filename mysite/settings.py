@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'collectfast',
     'django.contrib.staticfiles',
-    'django.contrib.staticfiles':
     'mysite.base',
 ]
 
