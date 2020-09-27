@@ -142,6 +142,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 COLLECTFAST_ENABLED = False
 
 AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
+# AWS_ACCESS_KEY_ID = None # Se setada para None vai habilitar o Django Debug Toolbar
 
 # STORAGE CONFIGURATION IN S3 AWS
 # ------------------------------------------------------------------------------
