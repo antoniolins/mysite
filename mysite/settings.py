@@ -187,7 +187,7 @@ from sentry_sdk.integrations.django import DjangoIntegration
 
 SENTRY_DSN=config('SENTRY_DSN', default=None)
 # dsn = "https://ac3ececcec594be29a3dd25606259ca9@o453810.ingest.sentry.io/5442907",
-IF SENTRY_DSN:
+if SENTRY_DSN:
     sentry_sdk.init(
         dsn=SENTRY_DSN,
         integrations=[DjangoIntegration()],
