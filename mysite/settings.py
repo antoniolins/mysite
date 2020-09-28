@@ -181,7 +181,7 @@ if AWS_ACCESS_KEY_ID:
     INSTALLED_APPS.append('s3_folder_storage')
     INSTALLED_APPS.append('storages')
 
-SENTRY_DSN=config('SENTRY_DSN', default=None)
+SENTRY_DSN = config('SENTRY_DSN', default=None)
 # dsn = "https://ac3ececcec594be29a3dd25606259ca9@o453810.ingest.sentry.io/5442907",
 if SENTRY_DSN:
     sentry_sdk.init(
